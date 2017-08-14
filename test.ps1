@@ -7,4 +7,4 @@ Write-Host -ForegroundColor Red "Do NOT run this script non-interactively! Run f
 return
 }
 Write-Host -ForegroundColor Red "Hello"
-Write-Host -ForegroundColor Green "Bye!"
+Write-Host -ForegroundColor Blue "Bye!"
