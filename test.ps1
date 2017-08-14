@@ -1,6 +1,6 @@
 ﻿#Test
 
-$runscript = $true
+$runscript = $false
 if ($runscript -eq $false)
 {
 Write-Host -ForegroundColor Red "Do NOT run this script non-interactively! Run from editor"
