@@ -17,8 +17,10 @@
 #charge_stop
 #charge_start
 
-Connect-Tesla
+$teslacred = Get-Credential
 
-get-tesla -Command vehicles
+Connect-Tesla -Credential $teslacred
+
+get-tesla -Command vehicles    
 
 Get-Tesla -Command charge_state
