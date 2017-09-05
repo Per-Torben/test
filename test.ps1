@@ -8,3 +8,5 @@ return
 }
 Write-Host -ForegroundColor Red "Hello"
 Write-Host -ForegroundColor Blue "Bye!"
+
+Write-Host -Object $runscript
