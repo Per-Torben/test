@@ -12,3 +12,6 @@ $a | foreach {
 $out | fl
 
 $c = "D"
+
+[System.Collections.ArrayList]$arraylist = "HomePC01", "HomeFIL02", "HomeHTPC01"
+$arraylist
